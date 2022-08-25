@@ -1,0 +1,6 @@
+[
+    { "img": "../img/produc6.jpg", "nombre": "Espejo Circular", "precio": "1000", "button": "Agregar al carrito","id": 1},
+    { "img": "../img/produc3.jpg", "nombre": "Espejo Rectangular", "precio": "2000", "button": "Agregar al carrito","id": 2},
+    { "img": "../img/produc17.jpg", "nombre": "Espejo Especial", "precio": "3000", "button": "Agregar al carrito","id": 3},
+    { "img": "../img/produc21.jpg", "nombre": "Espejo Personalizado", "precio": "4000", "button": "Agregar al carrito","id": 4}
+]

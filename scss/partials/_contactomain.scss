@@ -1,0 +1,67 @@
+main{
+    .title-contacto{
+        margin-top: 1.5rem;
+        h1{
+            text-align: center;
+        }
+    }
+    .container-flex-contacto{
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+        @media (min-width: 576px){
+                
+        }
+        @media (min-width: 768px){
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        @media (min-width: 1024px){
+            flex-direction: row;
+            align-items: inherit;
+            justify-content: space-around;
+            
+        }
+        .datos-formulario{
+            @media (min-width: 768px){
+                
+            }
+            @media (min-width: 1024px){
+                width: 40rem; 
+            }
+            h2{}
+            ul{
+                list-style: none;
+                padding: 0;
+            }
+            form{
+                margin: 1rem;
+                @media (min-width: 768px){
+                    // margin: 0rem;
+                }
+                @media (min-width: 1024px){
+                    margin: 0rem;
+                }
+            }
+        }
+        iframe{
+            display: none;
+            @media (min-width: 576px){
+                
+            }
+            @media (min-width: 768px){
+                display: inherit;
+                height: 28.125rem;
+                width: 14.4375rem;
+                
+            }
+            @media (min-width: 1024px){
+                display: inherit;
+                height: 28.125rem;
+                width: 29.4375rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,76 @@
+main{
+    .fondo-producto{
+        margin: 1.5rem 0;
+        h1{
+            text-align: center;
+        }
+    }
+    .lista-productos{
+        display: flex;
+        flex-direction: row;
+    }
+    .productos{
+        display: flex;
+        flex-direction: column;
+        h3{
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+        .container-productos{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            @media (min-width: 576px){
+                justify-content: space-evenly;
+            }
+            .producto{
+                height: auto;
+                margin-bottom: 1rem;
+                max-width: 11rem;
+                box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+                @media (min-width: 528px){
+                    max-width: 13rem;
+                }
+                @media (min-width: 768px){
+                    max-width: 17rem;
+                }
+                img{
+                    width: 11rem;
+                    height: 8rem;
+                    @media (min-width: 528px){
+                        width: 13rem;
+                    }
+                    @media (min-width: 768px){
+                        width: 17rem;
+                        height: 11rem;
+                    }
+                }
+                h4{
+                    text-align: center;
+                }
+                .ajuste{
+                    margin-bottom: 0;
+                }
+                p{
+                    text-align: center;
+                    margin-bottom: 3px;
+                }
+                .button{
+                    display: flex;
+                    justify-content: center;
+                    margin-bottom: 1rem;
+                    a{
+                        color: black;
+                        padding: 10px 20px;
+                        background-color: #17C3B2;
+                        border-radius: 10%;
+                        text-decoration: none;
+                        &:hover{
+                            background-color: #4472CA;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

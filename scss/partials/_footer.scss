@@ -1,0 +1,46 @@
+footer{
+    background-color: rgb(26, 24, 21);
+    padding: 1rem;
+    .container-flex-footer{
+        display: flex;
+        flex-direction: column;
+        @media (min-width: 1024px){
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .container-datos{
+            color: white;
+            p{}
+            ul{
+                li{
+                    list-style: none;
+                }
+                
+            }
+        }
+        .container-redes{
+            p{
+                color: white;
+            }
+        }
+        iframe{
+            width: 100%;
+            height: 8rem;
+            @media (min-width: 1024px){
+                width: 18.75rem;
+                height: 18.75rem;
+                padding: 1rem;
+                margin: 0;
+            }
+        }
+    }
+    .autor-footer{
+        color: white;
+        text-align: center;
+        p{
+            margin: 0;
+        }
+    }
+}

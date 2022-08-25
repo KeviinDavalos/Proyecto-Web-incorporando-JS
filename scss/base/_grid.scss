@@ -1,0 +1,40 @@
+/* Acomodamiento de area */
+header{
+    grid-area: header;
+}
+main{
+    grid-area: main;
+}
+footer{
+    grid-area: footer;
+}
+
+/* Grilla General */
+.grid-container{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "main"
+    "footer";
+    grid-template-columns: auto;
+    grid-template-rows: repeat(3,auto);
+    @media (min-width: 576px){
+        
+    }
+    @media (min-width: 768px){
+        grid-template-areas: 
+        "header header"
+        "main main"
+        "footer footer";
+        grid-template-columns: repeat(2,auto);
+        grid-template-rows: repeat(3,auto);
+    }
+    @media (min-width: 1024px){
+        grid-template-areas:
+        "header header header"
+        "main main main"
+        "footer footer footer";
+        grid-template-columns: repeat(3,auto);
+        grid-template-rows: repeat(3,auto);
+    }
+}
